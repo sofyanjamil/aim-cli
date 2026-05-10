@@ -1,0 +1,60 @@
+{
+  "name": "@aim/cli",
+  "version": "0.1.0",
+  "description": "Test and evaluate AI agents with confidence",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "aim": "./bin/aim.js"
+  },
+  "files": [
+    "dist/",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "testing",
+    "evaluation",
+    "agents",
+    "cli",
+    "openai",
+    "anthropic",
+    "prompt-engineering"
+  ],
+  "author": "AIM Team <team@aim.io>",
+  "license": "MIT",
+  "homepage": "https://aim.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aim-team/aim-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aim-team/aim-cli/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.3.0",
+    "globby": "^14.0.0",
+    "ora": "^8.0.1",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.12.0",
+    "typescript": "^5.4.5"
+  }
+}
