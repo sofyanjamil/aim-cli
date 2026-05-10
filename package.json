@@ -1,5 +1,5 @@
 {
-  "name": "@aim/cli",
+  "name": "aim-testing-cli",
   "version": "0.1.0",
   "description": "Test and evaluate AI agents with confidence",
   "type": "module",
