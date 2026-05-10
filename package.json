@@ -17,8 +17,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "typecheck": "tsc --noEmit",
-    "prepublishOnly": "npm run build"
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [
     "ai",
@@ -36,10 +35,10 @@
   "homepage": "https://aim.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aim-team/aim-cli.git"
+    "url": "https://github.com/sofyanjamil/aim-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/aim-team/aim-cli/issues"
+    "url": "https://github.com/sofyanjamil/aim-cli/issues"
   },
   "engines": {
     "node": ">=18.0.0"
